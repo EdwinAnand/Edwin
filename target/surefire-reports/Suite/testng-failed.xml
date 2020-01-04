@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="UserName" value="Admin"/>
+  <parameter name="PassWord" value="admin123"/>
+  <test name="Test(failed)">
+    <parameter name="UserName" value="Admin"/>
+    <parameter name="PassWord" value="admin123"/>
+    <classes>
+      <class name="com.parameters.ParameterPassingP">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterPassingP -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
