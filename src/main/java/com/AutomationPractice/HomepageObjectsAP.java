@@ -10,7 +10,11 @@ public class HomepageObjectsAP extends BasePage1{
 	private WebElement Women;
 	
 	@FindBy(xpath="(//a[@title='Dresses'])[2]")
+
 	private WebElement dress3232;
+
+	private WebElement dress1212;
+
 	
 //	@FindBy(xpath="(//li[@class]//a[@title='Dresses']")
 //	private WebElement dress;
