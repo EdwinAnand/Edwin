@@ -44,7 +44,7 @@ public class HomepageObjectsAP extends BasePage1{
 		return Women;
 	}
 	public WebElement getdress(){
-		return dress;
+		return dress1212;
 	}
 	public WebElement gettshirt(){
 		return tshirt;
